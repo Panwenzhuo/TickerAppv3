@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+     <style name="AppTheme" parent="AppTheme.Base">  <!-- <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar"> -->
+        <!-- Customize your theme here. -->
+
+    </style>
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>  <!-- for pre lollipop use colorPrimaryDark not android:colorPrimaaryDark -->
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+
+    <style name="MyCustomToolbarTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:textColorPrimary">#011627</item>
+        <item name="android:textColorSecondary">#2EC4B6</item>
+    </style>
+
+
+
+</resources>
