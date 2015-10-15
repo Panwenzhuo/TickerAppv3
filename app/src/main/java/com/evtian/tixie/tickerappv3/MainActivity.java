@@ -67,11 +67,11 @@ public class MainActivity extends ActionBarActivity {  //using appcombat v7 so n
         }
 
         public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState){
-            View layout=inflater.inflate(R.layout.fragment_my.container.false);
+            View layout=inflater.inflate(R.layout.fragment_my,container,false);
             return layout;
         }
 
-
+ //test comment
 
     }
 
